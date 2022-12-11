@@ -1,0 +1,17 @@
+{
+  "train_batch_size": 32,
+  "eval_batch_size": 32, 
+  "learning_rate": 5e-5,
+  "pad": "max_length",
+  "max_seq_len": 32,
+  "warmup_ratio": 0.1,
+  "num_epochs": 50, 
+  "max_grad_norm": 1,
+  "weight_decay": 0.0,
+  "gradient_accumulation_steps": 1,
+  "adam_epsilon": 1e-8,
+  "warmup_proportion": 0, 
+  "no_cuda": false,
+  "model_name": "monologg/koelectra-base-discriminator",
+  "seed": 42
+}
